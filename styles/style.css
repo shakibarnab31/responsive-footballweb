@@ -14,7 +14,7 @@
      Header styels
      --------------------- */
 
-.flexible-container{
+.web-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     background-color: #2D25A0;
@@ -49,16 +49,16 @@
     width: 555px;
     height: 440px;
 }
-.flexible-container:hover .web-banner img{
+.web-container:hover .web-banner img{
     transform: scale(1.5);
     transition: transform 2s ease;
 }
 
- /*--------------------------
+/*--------------------------
       players styles
-      --------------------- */
+ --------------------- */
 
-      .players-container{
+    .players-container{
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -79,15 +79,15 @@
         padding: 15px;
     }
     
-      .thumbnail img{
+    .thumbnail img{
         width: 100%;
         height: 256px;
 
-      }
+    }
       
-      /* ---------------------
-        why us blog styleys 
-        ---------------------*/
+/* ---------------------
+ why us blog styleys 
+---------------------*/
     .blog-container{
         display: flex;
         align-items: center;
@@ -104,80 +104,80 @@
             height: 250px;
             padding: 50px;
             box-shadow: 0px 5px 15px rgb(41 41 41 / 58%);
-        }
+    }
 
-        /* ----------------- 
-        contact styles
-        --------------------- */
-        .contact-container{
-            display: flex;
-            justify-content: center;
-            margin-bottom: 100px;
-        }
-        .contact-info {
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-column-gap: 100px;
+/* ----------------- 
+    contact styles
+--------------------- */
+    .contact-container{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .contact-info {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 100px;
             
-        }
-        .contact-detail, .dropline{
-            box-shadow: 5px 5px 15px lightgray;
-            padding: 15px;
+    }
+    .contact-detail, .dropline{
+        box-shadow: 5px 5px 15px lightgray;
+        padding: 15px;
 
-        }
+    }
 
-        .contact-form{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
-        .contact-form input, button {
-                font-size: 1.3em;
-                margin-top: 10px;
-                padding-left: 10px;
-                border: 1px solid lightgray;
-                border-radius: 5px;
-        }
-        .contact-form button {
-                background-color: crimson;
-                font-weight: 700;
-                color: white;
-                padding: 5px;
-        }
+    .contact-form input, button {
+        font-size: 1.3em;
+        margin-top: 10px;
+        padding-left: 10px;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+    }
+    .contact-form button {
+        background-color: crimson;
+        font-weight: 700;
+        color: white;
+         padding: 5px;
+    }
 
-        /*------------------- 
-           footer styels
-         -------------------*/
+/*------------------- 
+     footer styels
+-------------------*/
 
-         .footer-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .footer-info{
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            text-align: center;
-            margin-bottom: 100px;
-        }
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-info{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        margin-bottom: 100px;
+    }
         .footer-logo img{
-            width: 483.87px;
-            height: 110px;
-        }
+        width: 483.87px;
+        height: 110px;
+    }
         .footer-icon a{
-            text-decoration: none;
-            color: #969BAB;
-            margin-right: 10px;
-        }
+        text-decoration: none;
+        color: #969BAB;
+        margin-right: 10px;
+    }
             
  /* ------------------
-      media query
-      -------------------- */
+    media query
+-------------------- */
 
 
 @media only screen and (max-width:688px) {
-    .flexible-container{
+    .web-container{
         grid-template-columns: repeat(1,1fr);
         grid-row-gap: 30px;
         width: 100%;
@@ -195,7 +195,7 @@
     height: 259.17px;
     margin: 0 0 0 15px;
     }
-    .flexible-container:hover .web-banner img{
+    .web-container:hover .web-banner img{
         transform: scale(1.5);
         transition: transform 2s ease;
     }
