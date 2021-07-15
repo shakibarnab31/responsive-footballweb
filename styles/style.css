@@ -85,7 +85,67 @@
 
       }
       
+      /* ---------------------
+        why us blog styleys 
+        ---------------------*/
+    .blog-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .blog-info{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(255, 235, 198);
+            border-radius: 10px;
+            width: 1100px;
+            height: 250px;
+            padding: 50px;
+            box-shadow: 0px 5px 15px rgb(41 41 41 / 58%);
+        }
 
+        /* ----------------- 
+        contact styles
+        --------------------- */
+        .contact-container{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 200px;
+        }
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-column-gap: 100px;
+            
+        }
+        .contact-detail, .dropline{
+            box-shadow: 5px 5px 15px lightgray;
+            padding: 15px;
+
+        }
+
+        .contact-form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .contact-form input, button {
+                font-size: 1.3em;
+                margin-top: 10px;
+                padding-left: 10px;
+                border: 1px solid lightgray;
+                border-radius: 5px;
+        }
+        .contact-form button {
+                background-color: crimson;
+                font-weight: 700;
+                color: white;
+                padding: 5px;
+        }
+            
  /* ------------------
       media query
       -------------------- */
@@ -116,6 +176,17 @@
     }
     .players{
         grid-template-columns: repeat(1,1fr);
+    }
+    .blog-info{
+        height: auto;
+        width: 100%;
+    }
+    .contact-info{
+        grid-template-columns: repeat(1,1fr);
+        width:100%;
+        grid-row-gap: 50px;
+        
+        
     }
     
     
